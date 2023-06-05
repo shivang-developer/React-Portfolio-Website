@@ -30,23 +30,28 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>20+ Worldwide</small>
             </article>
             {/*Experience*/}
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>40+ Completed</small>
             </article>
           </div>
-
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In iste
-            ipsa error atque voluptates quod autem. Neque laboriosam natus
-            commodi adipisci quod, tempora consectetur quisquam corrupti. Maxime
-            vitae perspiciatis inventore.
+            Hello, I'm Shivang Mishra, an experienced IT professional with a
+            passion for iOS app development since 2015. <br /> Currently, I work
+            as a full-time employee at OLX, where I focus on developing and
+            managing their iOS application. <br /> In my free time, I
+            enthusiastically delve into exploring new technologies and expanding
+            my skills in frontend and backend development, as well as AI and ML.
+            <br />
+            I find great joy in traveling to different countries, immersing
+            myself in diverse cultures, and savoring delicious cuisines. <br />
+            Despite my busy schedule, I prioritize my fitness by engaging in
+            sports and regularly hitting the gym.
           </p>
-
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

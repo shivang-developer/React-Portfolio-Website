@@ -3,13 +3,30 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import { TypeAnimation } from "react-type-animation";
+
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5 className="text-light">Hello I'm</h5>
         <h1>Shivang Mishra</h1>
-        <h5 className="text-light">FullStack Developer</h5>
+        <TypeAnimation
+          sequence={[
+            "iOS Developer",
+            2000,
+            "FrontEnd Developer",
+            2000,
+            "Backend Developer",
+            2000,
+            "React Developer",
+            2000,
+          ]}
+          speed={50}
+          className="header__animation"
+          wrapper="span"
+          repeat={Infinity}
+        />
         <CTA />
         <HeaderSocials />
         <div className="me">
