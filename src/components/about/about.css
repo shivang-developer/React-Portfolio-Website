@@ -65,9 +65,31 @@
   color: var(--color-light);
 }
 
-.about__content p {
-  margin: 2rem 0 2.6rem;
+.about__content5 h5 {
   color: var(--color-light);
+}
+
+.about__contents {
+  margin: 1.2rem 0 1.5rem;
+}
+
+.about__contents h5 {
+  color: var(--color-light);
+  margin-left: 1.7rem;
+  margin-top: 0.1rem;
+  text-align: left;
+}
+
+.about__details {
+  display: flex;
+  gap: 9.5rem;
+}
+
+.about__details-icon {
+  margin-top: 0.4rem;
+  color: var(--color-primary);
+  font-size: 1rem;
+  position: absolute;
 }
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ====================*/

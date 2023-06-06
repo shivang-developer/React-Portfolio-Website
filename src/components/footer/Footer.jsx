@@ -5,9 +5,13 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        SHIVANG
-      </a>
+      <div>
+        <a href="#" className="footer__logo">
+          SHIVANG MISHRA PORTFOLIO
+        </a>
+        <a href="#">(Made by me &#128513;)</a>
+      </div>
+
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>

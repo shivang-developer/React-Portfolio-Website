@@ -1,9 +1,13 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/abc.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdOutlineWorkOutline, MdOutlineFastfood } from "react-icons/md";
+import { BiBookOpen } from "react-icons/bi";
+import { CgGym } from "react-icons/cg";
 
 const About = () => {
   return (
@@ -39,19 +43,44 @@ const About = () => {
               <small>40+ Completed</small>
             </article>
           </div>
-          <p>
-            Hello, I'm Shivang Mishra, an experienced IT professional with a
-            passion for iOS app development since 2015. <br /> Currently, I work
-            as a full-time employee at OLX, where I focus on developing and
-            managing their iOS application. <br /> In my free time, I
-            enthusiastically delve into exploring new technologies and expanding
-            my skills in frontend and backend development, as well as AI and ML.
-            <br />
-            I find great joy in traveling to different countries, immersing
-            myself in diverse cultures, and savoring delicious cuisines. <br />
-            Despite my busy schedule, I prioritize my fitness by engaging in
-            sports and regularly hitting the gym.
-          </p>
+          <div className="about__contents">
+            <article className="about__details">
+              <FaLaptopCode className="about__details-icon" />
+              <h5>
+                Hello, I'm Shivang Mishra, an experienced IT professional with a
+                passion for iOS app development since 2015.
+              </h5>
+            </article>
+            <article className="about__details">
+              <MdOutlineWorkOutline className="about__details-icon" />
+              <h5 className="text-light">
+                Currently, I work as a full-time employee at OLX, where I focus
+                on developing and managing their iOS application.
+              </h5>
+            </article>
+            <article className="about__details">
+              <BiBookOpen className="about__details-icon" />
+              <h5>
+                In my free time, I enthusiastically delve into exploring new
+                technologies and expanding my skills in frontend and backend
+                development, as well as AI and ML.
+              </h5>
+            </article>
+            <article className="about__details">
+              <MdOutlineFastfood className="about__details-icon" />
+              <h5>
+                I find great joy in traveling to different countries, immersing
+                myself in diverse cultures, and savoring delicious cuisines.
+              </h5>
+            </article>
+            <article className="about__details">
+              <CgGym className="about__details-icon" />
+              <h5>
+                Despite my busy schedule, I prioritize my fitness by engaging in
+                sports and regularly hitting the gym.
+              </h5>
+            </article>
+          </div>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

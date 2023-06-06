@@ -15,15 +15,23 @@
 
 .testimonial {
   background: var(--color-bg-variant);
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  height: fit-content;
+  border: 1px solid var(--color-primary);
+}
+
+.testimonial h5 {
+  text-align: center;
+}
+
+.testimonials {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
 }
 
 .client__review {
@@ -39,6 +47,11 @@
   .container.testimonial__container {
     width: 60%;
   }
+
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ====================*/
@@ -49,5 +62,10 @@
 
   .client__review {
     width: var(--container-width-sm);
+  }
+
+  .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.7rem;
   }
 }
